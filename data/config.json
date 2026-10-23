@@ -1,0 +1,35 @@
+{
+  "muscles": [
+    "Pectoraux",
+    "Épaules",
+    "Triceps",
+    "Dos",
+    "Biceps",
+    "Quadriceps",
+    "Ischios",
+    "Fessiers",
+    "Mollets",
+    "Abdos"
+  ],
+  "equips": [
+    "Barre",
+    "Haltères",
+    "Machine",
+    "Poulie",
+    "Poids du corps",
+    "Autre"
+  ],
+  "types": [
+    "Polyarticulaire",
+    "Isolation",
+    "Gainage"
+  ],
+  "colors": [
+    "#3b6cff",
+    "#7aa2ff",
+    "#1f46c4",
+    "#e5c15d",
+    "#c58bff",
+    "#ff7aa8"
+  ]
+}

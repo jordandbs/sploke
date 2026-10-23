@@ -1,0 +1,254 @@
+[
+  {
+    "id": "d_dc",
+    "name": "Développé couché à la barre",
+    "muscle": "Pectoraux",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Allongé sur le banc, pieds au sol, omoplates serrées. Descends la barre au milieu des pectoraux en contrôlant, puis pousse jusqu'à l'extension sans verrouiller brutalement les coudes.",
+    "video": ""
+  },
+  {
+    "id": "d_pd",
+    "name": "Pec deck (machine à écartés)",
+    "muscle": "Pectoraux",
+    "equip": "Machine",
+    "type": "Isolation",
+    "desc": "Dos plaqué contre le dossier, coudes à hauteur d'épaules. Ramène les bras devant toi en contractant les pectoraux, puis reviens lentement jusqu'à un étirement confortable.",
+    "video": ""
+  },
+  {
+    "id": "d_pompes",
+    "name": "Pompes",
+    "muscle": "Pectoraux",
+    "equip": "Poids du corps",
+    "type": "Polyarticulaire",
+    "desc": "Mains un peu plus larges que les épaules, corps gainé de la tête aux talons. Descends la poitrine près du sol puis repousse sans cambrer le bas du dos.",
+    "video": ""
+  },
+  {
+    "id": "d_butter",
+    "name": "Butterfly à la poulie",
+    "muscle": "Pectoraux",
+    "equip": "Poulie",
+    "type": "Isolation",
+    "desc": "Debout entre deux poulies hautes, buste légèrement penché. Rapproche les mains devant la poitrine, bras presque tendus, serre les pectoraux, puis reviens en contrôle.",
+    "video": ""
+  },
+  {
+    "id": "d_incl",
+    "name": "Développé incliné aux haltères",
+    "muscle": "Pectoraux",
+    "equip": "Haltères",
+    "type": "Polyarticulaire",
+    "desc": "Banc incliné à 30°. Pousse les haltères au-dessus de la poitrine, descends jusqu'à sentir l'étirement des pectoraux, coudes à environ 60° du buste.",
+    "video": ""
+  },
+  {
+    "id": "d_elat",
+    "name": "Élévations latérales",
+    "muscle": "Épaules",
+    "equip": "Haltères",
+    "type": "Isolation",
+    "desc": "Debout, coudes légèrement fléchis. Monte les haltères sur les côtés jusqu'à hauteur d'épaules sans élan, puis redescends lentement.",
+    "video": ""
+  },
+  {
+    "id": "d_efro",
+    "name": "Élévations frontales",
+    "muscle": "Épaules",
+    "equip": "Haltères",
+    "type": "Isolation",
+    "desc": "Monte les haltères devant toi jusqu'à hauteur d'épaules, bras presque tendus, sans balancer le buste. Redescends en contrôlant.",
+    "video": ""
+  },
+  {
+    "id": "d_mil",
+    "name": "Développé militaire",
+    "muscle": "Épaules",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Debout, barre à hauteur des clavicules, abdos et fessiers serrés. Pousse la barre au-dessus de la tête, puis redescends en contrôle.",
+    "video": ""
+  },
+  {
+    "id": "d_fpull",
+    "name": "Face pull",
+    "muscle": "Épaules",
+    "equip": "Poulie",
+    "type": "Isolation",
+    "desc": "Poulie à hauteur du visage, corde en prise neutre. Tire vers le front en écartant les coudes, serre l'arrière des épaules, puis reviens lentement.",
+    "video": ""
+  },
+  {
+    "id": "d_tri",
+    "name": "Extension triceps à la poulie",
+    "muscle": "Triceps",
+    "equip": "Poulie",
+    "type": "Isolation",
+    "desc": "Poulie haute, coudes collés au corps. Étends les bras vers le bas jusqu'à l'extension complète, puis remonte sans bouger les coudes.",
+    "video": ""
+  },
+  {
+    "id": "d_dips",
+    "name": "Dips",
+    "muscle": "Triceps",
+    "equip": "Poids du corps",
+    "type": "Polyarticulaire",
+    "desc": "Bras tendus sur les barres parallèles, buste droit. Descends jusqu'à environ 90° aux coudes, puis repousse sans hausser les épaules.",
+    "video": ""
+  },
+  {
+    "id": "d_row",
+    "name": "Rowing haltère",
+    "muscle": "Dos",
+    "equip": "Haltères",
+    "type": "Polyarticulaire",
+    "desc": "Une main et un genou sur le banc, dos plat. Tire l'haltère vers la hanche en menant avec le coude, serre le dos, puis redescends bras tendu.",
+    "video": ""
+  },
+  {
+    "id": "d_tir",
+    "name": "Tirage vertical à la machine",
+    "muscle": "Dos",
+    "equip": "Machine",
+    "type": "Polyarticulaire",
+    "desc": "Assis, cuisses calées. Tire la barre vers le haut de la poitrine en abaissant les coudes, poitrine sortie, puis remonte lentement les bras tendus.",
+    "video": ""
+  },
+  {
+    "id": "d_trac",
+    "name": "Tractions",
+    "muscle": "Dos",
+    "equip": "Poids du corps",
+    "type": "Polyarticulaire",
+    "desc": "Suspendu à la barre, prise un peu plus large que les épaules. Tire jusqu'à passer le menton au-dessus de la barre, puis redescends bras tendus en contrôle.",
+    "video": ""
+  },
+  {
+    "id": "d_rowb",
+    "name": "Rowing barre",
+    "muscle": "Dos",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Buste penché à environ 45°, dos plat. Tire la barre vers le bas du ventre, serre les omoplates, puis redescends sans arrondir le dos.",
+    "video": ""
+  },
+  {
+    "id": "d_cb",
+    "name": "Curl barre",
+    "muscle": "Biceps",
+    "equip": "Barre",
+    "type": "Isolation",
+    "desc": "Debout, coudes près du corps. Monte la barre vers les épaules sans balancer le buste, puis redescends lentement.",
+    "video": ""
+  },
+  {
+    "id": "d_cm",
+    "name": "Curl marteau",
+    "muscle": "Biceps",
+    "equip": "Haltères",
+    "type": "Isolation",
+    "desc": "Haltères en prise neutre (paumes face à face). Fléchis les coudes en les gardant fixes, puis redescends en contrôle.",
+    "video": ""
+  },
+  {
+    "id": "d_cp",
+    "name": "Curl à la poulie",
+    "muscle": "Biceps",
+    "equip": "Poulie",
+    "type": "Isolation",
+    "desc": "Face à la poulie basse, coudes près du corps. Fléchis les bras en gardant la tension constante sur le biceps, puis reviens lentement.",
+    "video": ""
+  },
+  {
+    "id": "d_sq",
+    "name": "Squat à la barre",
+    "muscle": "Quadriceps",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Barre sur les trapèzes, pieds à largeur d'épaules. Descends en poussant les hanches vers l'arrière, genoux dans l'axe des pieds, puis remonte en poussant dans le sol.",
+    "video": ""
+  },
+  {
+    "id": "d_presse",
+    "name": "Presse à cuisses",
+    "muscle": "Quadriceps",
+    "equip": "Machine",
+    "type": "Polyarticulaire",
+    "desc": "Dos et bassin plaqués. Descends les genoux vers la poitrine sans décoller le bassin, puis pousse sans verrouiller les genoux.",
+    "video": ""
+  },
+  {
+    "id": "d_fentes",
+    "name": "Fentes aux haltères",
+    "muscle": "Quadriceps",
+    "equip": "Haltères",
+    "type": "Polyarticulaire",
+    "desc": "Fais un grand pas en avant, descends jusqu'à ce que le genou arrière frôle le sol, buste droit, puis repousse pour revenir.",
+    "video": ""
+  },
+  {
+    "id": "d_lext",
+    "name": "Leg extension",
+    "muscle": "Quadriceps",
+    "equip": "Machine",
+    "type": "Isolation",
+    "desc": "Assis, dossier réglé. Tends les jambes complètement en contractant les quadriceps, puis redescends lentement.",
+    "video": ""
+  },
+  {
+    "id": "d_lcurl",
+    "name": "Leg curl",
+    "muscle": "Ischios",
+    "equip": "Machine",
+    "type": "Isolation",
+    "desc": "Cale les chevilles sous le rouleau. Fléchis les jambes en ramenant les talons vers les fessiers, puis reviens en contrôlant la descente.",
+    "video": ""
+  },
+  {
+    "id": "d_sdt",
+    "name": "Soulevé de terre roumain",
+    "muscle": "Ischios",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Jambes presque tendues, dos plat. Recule les hanches en faisant glisser la barre le long des cuisses jusqu'à l'étirement des ischios, puis remonte.",
+    "video": ""
+  },
+  {
+    "id": "d_hip",
+    "name": "Hip thrust",
+    "muscle": "Fessiers",
+    "equip": "Barre",
+    "type": "Polyarticulaire",
+    "desc": "Haut du dos sur un banc, barre sur les hanches. Pousse les hanches vers le haut jusqu'à l'alignement épaules-genoux, serre les fessiers, puis redescends.",
+    "video": ""
+  },
+  {
+    "id": "d_mol",
+    "name": "Mollets debout",
+    "muscle": "Mollets",
+    "equip": "Machine",
+    "type": "Isolation",
+    "desc": "Pointes de pieds sur la plateforme. Monte sur la pointe le plus haut possible, marque une pause, puis redescends jusqu'à l'étirement.",
+    "video": ""
+  },
+  {
+    "id": "d_crunch",
+    "name": "Crunch",
+    "muscle": "Abdos",
+    "equip": "Poids du corps",
+    "type": "Isolation",
+    "desc": "Allongé, genoux fléchis. Enroule le buste en rapprochant les côtes du bassin, sans tirer sur la nuque, puis redescends en contrôle.",
+    "video": ""
+  },
+  {
+    "id": "d_planche",
+    "name": "Gainage (planche)",
+    "muscle": "Abdos",
+    "equip": "Poids du corps",
+    "type": "Gainage",
+    "desc": "Appui sur les avant-bras et les pointes de pieds, corps aligné. Serre les abdos et les fessiers et tiens la position sans creuser le dos.",
+    "video": ""
+  }
+]

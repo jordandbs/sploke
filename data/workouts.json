@@ -1,0 +1,87 @@
+[
+  {
+    "id": "w_push",
+    "name": "Push",
+    "color": "#3b6cff",
+    "items": [
+      {
+        "exId": "d_dc",
+        "sets": 4,
+        "reps": 8
+      },
+      {
+        "exId": "d_pd",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "exId": "d_pompes",
+        "sets": 3,
+        "reps": 15
+      },
+      {
+        "exId": "d_mil",
+        "sets": 4,
+        "reps": 8
+      },
+      {
+        "exId": "d_elat",
+        "sets": 4,
+        "reps": 12
+      },
+      {
+        "exId": "d_efro",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "exId": "d_tri",
+        "sets": 3,
+        "reps": 12
+      }
+    ]
+  },
+  {
+    "id": "w_pull",
+    "name": "Pull",
+    "color": "#7aa2ff",
+    "items": [
+      {
+        "exId": "d_row",
+        "sets": 4,
+        "reps": 10
+      },
+      {
+        "exId": "d_tir",
+        "sets": 4,
+        "reps": 10
+      },
+      {
+        "exId": "d_trac",
+        "sets": 3,
+        "reps": 8
+      },
+      {
+        "exId": "d_cb",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "exId": "d_cm",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "exId": "d_cp",
+        "sets": 3,
+        "reps": 12
+      }
+    ]
+  },
+  {
+    "id": "w_legs",
+    "name": "Legs",
+    "color": "#1f46c4",
+    "items": []
+  }
+]
