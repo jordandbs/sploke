@@ -20,9 +20,19 @@ const A={
   addw(){if(readWeightForm()){render();toast('Mesure enregistrée')}},
   editw(b){weightModal(b.dataset.id)},
   async delw(b){if(await ask('Supprimer cette mesure de poids ?','Supprimer',true)){S.weights=S.weights.filter(w=>w.id!==b.dataset.id);save();render()}},
-  export(){
-    const blob=new Blob([JSON.stringify(Object.assign({},S,{sync:undefined,active:null}),null,1)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=u;a.download='muscu-sauvegarde-'+isoDay(Date.now())+'.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);
+  async export(){
+    const json=JSON.stringify(Object.assign({},S,{sync:undefined,active:null,exportedAt:new Date().toISOString()}),null,1);
+    const who=(S.profile.name||'').trim().replace(/[^\w.-]+/g,'_');
+    const name='muscu-sauvegarde-'+(who?who+'-':'')+isoDay(Date.now())+'.json';
+    const file=new File([json],name,{type:'application/json'});
+    /* iPhone / Android (surtout l'app installée sur l'écran d'accueil) : menu de partage natif */
+    if(navigator.canShare&&navigator.canShare({files:[file]})){
+      try{await navigator.share({files:[file],title:name});return}
+      catch(e){if(e&&e.name==='AbortError')return}
+    }
+    const u=URL.createObjectURL(file),a=document.createElement('a');
+    a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);
+    toast('Sauvegarde téléchargée');
   },
   import(){$('#impFile').click()},
   async restore(){

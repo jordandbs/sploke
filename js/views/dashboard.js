@@ -14,7 +14,7 @@ VIEWS.dash=()=>{
     if(perfs.length>=5)break}
   const a=S.active,aw=a&&woById(a.workoutId);
   return `
-  <div class="top"><div><p class="mut">${esc(fmtDL(Date.now()))}</p><h1>Salut${S.profile.name?' '+esc(S.profile.name):''}</h1></div></div>
+  <div class="top"><div><p class="mut">${esc(fmtDL(Date.now()))}</p><h1>Salut${S.profile.name?' '+esc(S.profile.name):''}</h1></div><button class="btn s" data-a="export" title="Télécharger toute ma progression en JSON">${ic('dl')}Exporter</button></div>
   ${a?`<button class="banner" data-a="resume" style="--wc:${aw?aw.color:'var(--tx)'}"><span class="dot"></span><span class="sp"><b>Séance en cours : ${esc(a.name)}</b><br><span class="mut sm" id="bchrono">${mmss((Date.now()-a.startedAt)/1000)}</span></span><span class="btn primary s">Reprendre</span></button>`:''}
   <section><h2>Démarrer un entraînement</h2>
     <div class="qs">${S.workouts.map(w=>`<button data-a="start" data-id="${w.id}" style="--wc:${w.color}"><b>${esc(w.name)}</b><span class="mut sm">${w.items.length?w.items.length+' exercice'+(w.items.length>1?'s':''):'Aucun exercice'}</span></button>`).join('')}

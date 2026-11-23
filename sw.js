@@ -1,6 +1,6 @@
 /* Service worker : fonctionne hors ligne.
    Incrémente CACHE à chaque mise à jour des fichiers pour forcer le rafraîchissement. */
-const CACHE = "muscu-v4";
+const CACHE = "muscu-v5";
 const ASSETS = [
   "./",
   "index.html",
